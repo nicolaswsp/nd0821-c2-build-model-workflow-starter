@@ -6,28 +6,28 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name for the input artifact
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name for the output artifact
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Name for the output artifact
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: description for the cleaning process
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: minimum price for the dataset threshold
+        type: float
 
       max_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: maximum price for the dataset threshold
+        type: float
 
 
     command: >-
